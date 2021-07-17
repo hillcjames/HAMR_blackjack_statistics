@@ -11,105 +11,106 @@ To run:
  Add a new experiment using that player, in `pkg/metrics.go`.
 
 
-Results, with 1,000,000 trials
-For ZeroRiskPlayer vs Hard17Player:
-        Plr:  0.415993
-        Dlr:  0.522192
-        Tie:  0.061815
-        Naive Expected win/loss, for 100 games @ $25 min:        -275
-        Expected longest winning streak, during 100 games:       4
-        Expected longest losing streak, during 100 games:        6
+Results, with 1,000,000 trials  
 
-For Hard15Player vs Hard17Player:
-        Plr:  0.426473
-        Dlr:  0.487037
-        Tie:  0.086490
-        Naive Expected win/loss, for 100 games @ $25 min:        -150
-        Expected longest winning streak, during 100 games:       5
-        Expected longest losing streak, during 100 games:        6
+For ZeroRiskPlayer vs Hard17Player:  
+        Plr:  0.415993  
+        Dlr:  0.522192  
+        Tie:  0.061815  
+        Naive Expected win/loss, for 100 games @ $25 min:        -275  
+        Expected longest winning streak, during 100 games:       4  
+        Expected longest losing streak, during 100 games:        6  
 
-For Soft16Player vs Hard17Player:
-        Plr:  0.407276
-        Dlr:  0.505419
-        Tie:  0.087305
-        Naive Expected win/loss, for 100 games @ $25 min:        -250
-        Expected longest winning streak, during 100 games:       4
-        Expected longest losing streak, during 100 games:        6
+For Hard15Player vs Hard17Player:  
+        Plr:  0.426473  
+        Dlr:  0.487037  
+        Tie:  0.086490  
+        Naive Expected win/loss, for 100 games @ $25 min:        -150  
+        Expected longest winning streak, during 100 games:       5  
+        Expected longest losing streak, during 100 games:        6  
 
-For Soft17Player vs Hard17Player:
-        Plr:  0.407760
-        Dlr:  0.492847
-        Tie:  0.099393
-        Naive Expected win/loss, for 100 games @ $25 min:        -225
-        Expected longest winning streak, during 100 games:       4
-        Expected longest losing streak, during 100 games:        6
+For Soft16Player vs Hard17Player:  
+        Plr:  0.407276  
+        Dlr:  0.505419  
+        Tie:  0.087305  
+        Naive Expected win/loss, for 100 games @ $25 min:        -250    
+        Expected longest winning streak, during 100 games:       4  
+        Expected longest losing streak, during 100 games:        6  
 
-For Hard17Player vs Hard17Player:
-        Plr:  0.414357
-        Dlr:  0.488908
-        Tie:  0.096735
-        Naive Expected win/loss, for 100 games @ $25 min:        -175
-        Expected longest winning streak, during 100 games:       4
-        Expected longest losing streak, during 100 games:        6
+For Soft17Player vs Hard17Player:  
+        Plr:  0.407760  
+        Dlr:  0.492847  
+        Tie:  0.099393  
+        Naive Expected win/loss, for 100 games @ $25 min:        -225  
+        Expected longest winning streak, during 100 games:       4  
+        Expected longest losing streak, during 100 games:        6  
 
-For Hard18Player vs Hard17Player:
-        Plr:  0.403245
-        Dlr:  0.511521
-        Tie:  0.085234
-        Naive Expected win/loss, for 100 games @ $25 min:        -275
-        Expected longest winning streak, during 100 games:       4
-        Expected longest losing streak, during 100 games:        6
+For Hard17Player vs Hard17Player:  
+        Plr:  0.414357  
+        Dlr:  0.488908  
+        Tie:  0.096735  
+        Naive Expected win/loss, for 100 games @ $25 min:        -175  
+        Expected longest winning streak, during 100 games:       4  
+        Expected longest losing streak, during 100 games:        6  
 
-For Hard19Player vs Hard17Player:
-        Plr:  0.363433
-        Dlr:  0.567556
-        Tie:  0.069011
-        Naive Expected win/loss, for 100 games @ $25 min:        -500
-        Expected longest winning streak, during 100 games:       3
-        Expected longest losing streak, during 100 games:        8
+For Hard18Player vs Hard17Player:  
+        Plr:  0.403245  
+        Dlr:  0.511521  
+        Tie:  0.085234  
+        Naive Expected win/loss, for 100 games @ $25 min:        -275  
+        Expected longest winning streak, during 100 games:       4  
+        Expected longest losing streak, during 100 games:        6  
 
-For BasicStratPlayer vs Hard17Player:
-        Plr:  0.433379
-        Dlr:  0.482444
-        Tie:  0.084177
-        Naive Expected win/loss, for 100 games @ $25 min:        -125
-        Expected longest winning streak, during 100 games:       5
-        Expected longest losing streak, during 100 games:        6
+For Hard19Player vs Hard17Player:  
+        Plr:  0.363433  
+        Dlr:  0.567556  
+        Tie:  0.069011  
+        Naive Expected win/loss, for 100 games @ $25 min:        -500  
+        Expected longest winning streak, during 100 games:       3  
+        Expected longest losing streak, during 100 games:        8  
 
-For BasicStratPlayer vs Soft17Player:
-        Plr:  0.433461
-        Dlr:  0.481354
-        Tie:  0.085185
-        Naive Expected win/loss, for 100 games @ $25 min:        -125
-        Expected longest winning streak, during 100 games:       5
-        Expected longest losing streak, during 100 games:        6
+For BasicStratPlayer vs Hard17Player:  
+        Plr:  0.433379  
+        Dlr:  0.482444  
+        Tie:  0.084177  
+        Naive Expected win/loss, for 100 games @ $25 min:        -125  
+        Expected longest winning streak, during 100 games:       5  
+        Expected longest losing streak, during 100 games:        6  
 
-For BasicStratPlayer vs Soft16Player:
-        Plr:  0.452007
-        Dlr:  0.465855
-        Tie:  0.082138
-        Naive Expected win/loss, for 100 games @ $25 min:        -25
-        Expected longest winning streak, during 100 games:       5
-        Expected longest losing streak, during 100 games:        5
+For BasicStratPlayer vs Soft17Player:  
+        Plr:  0.433461  
+        Dlr:  0.481354  
+        Tie:  0.085185  
+        Naive Expected win/loss, for 100 games @ $25 min:        -125  
+        Expected longest winning streak, during 100 games:       5  
+        Expected longest losing streak, during 100 games:        6  
 
-For BasicStratPlayer vs ZeroRiskPlayer:
-        Plr:  0.492636
-        Dlr:  0.420230
-        Tie:  0.087134
-        Naive Expected win/loss, for 100 games @ $25 min:        175
-        Expected longest winning streak, during 100 games:       6
-        Expected longest losing streak, during 100 games:        4
+For BasicStratPlayer vs Soft16Player:  
+        Plr:  0.452007  
+        Dlr:  0.465855  
+        Tie:  0.082138  
+        Naive Expected win/loss, for 100 games @ $25 min:        -25  
+        Expected longest winning streak, during 100 games:       5  
+        Expected longest losing streak, during 100 games:        5  
+
+For BasicStratPlayer vs ZeroRiskPlayer:  
+        Plr:  0.492636  
+        Dlr:  0.420230  
+        Tie:  0.087134  
+        Naive Expected win/loss, for 100 games @ $25 min:        175  
+        Expected longest winning streak, during 100 games:       6  
+        Expected longest losing streak, during 100 games:        4  
 
 
 
 
  Conclusions:
-     As must be the case, the house always wins.
-     More specifically though:
-        The biggest factor is naturally the fact that the player has to go first.
-        But after that: Treating aces as high until forced to drop them effects a ~2% swing. Soft seems to always play worse.
-        The exact number you stop on doesn't make much difference, although a hard 15 seems to be the best.
-        The strategic player I wrote, does 1% better than a blind hard-15 bot. Fascinating.
-        Also a little surprising: Drawing to 12 isn't all that terrible a strategy as a player, but it's absolutely awful as a dealer.
+     As must be the case, the house always wins.  
+     More specifically though:  
+        The biggest factor is naturally the fact that the player has to go first.  
+        But after that: Treating aces as high until forced to drop them effects a ~2% swing. Soft seems to always play worse.  
+        The exact number you stop on doesn't make much difference, although a hard 15 seems to be the best.  
+        The strategic player I wrote, does 1% better than a blind hard-15 bot. Fascinating.  
+        Also a little surprising: Drawing to 12 isn't all that terrible a strategy as a player, but it's absolutely awful as a dealer.  
 
-    I expected the house to always have an edge, at least with the basic strategy I have (and, I should assume, with any strategy excluding card-counting), but the strategies I thought would have a significant impact, don't, and a few that I expected would have only nominal impact (like hard19 vs hard16-18) actually have a huge (negative) effect.
+    I expected the house to always have an edge, at least with the basic strategy I have (and, I should assume, with any strategy excluding card-counting), but the strategies I thought would have a significant impact, don't, and a few that I expected would have only nominal impact (like hard19 vs hard16-18) actually have a huge (negative) effect.  
